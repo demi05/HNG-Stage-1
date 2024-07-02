@@ -1,5 +1,6 @@
 **Leshi Demilade - Tech Goals for the Next 2 Years**
 **Description**
+<br>
 This is a simple single-page website created to outline my goals for the next two years in the tech field. The website is built using only HTML, CSS, and JavaScript and is designed to be visually appealing, mobile-friendly, and fully responsive.
 
 **Features**
