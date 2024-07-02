@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #cae4db;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+}
+header {
+  display: flex;
+  align-items: center;
+  color: #dcae1d;
+  margin-bottom: 2em;
+  font-size: x-large;
+  width: 100%;
+  padding: 1.5em;
+}
+#utc-time {
+  margin-left: auto;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  color: #00303f;
+  padding: 0 1.5em;
+}
+.about-div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 1em;
+}
+.about-div h4 {
+  font-size: 2rem;
+}
+.about-div h2 {
+  font-size: 3rem;
+}
+.aims {
+  padding: 1em 2em;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.aims h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+.aims ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.aims ul li {
+  font-size: 1.5rem;
+}
+footer {
+  margin-top: 1.5em;
+  font-size: x-large;
+  width: 100%;
+  border-top: 1px solid #00303f;
+  text-align: center;
+  padding: 0 1.5em;
+}
+footer h4 {
+  margin-bottom: 1em;
+}
+footer ul {
+  list-style: none;
+}
+footer li {
+  margin-bottom: 1em;
+}
+footer a {
+  text-decoration: underline;
+  color: #00303f;
+}
+
+@media (min-width: 650px) {
+  header {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 2em;
+  }
+  .about-div {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    align-items: center;
+    justify-content: center;
+  }
+  .about-div-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1em;
+    text-align: left;
+  }
+  .aims {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 650px) and (max-width: 800px) {
+  .about-div-text {
+    padding-left: 3em;
+  }
+  .about-div h4 {
+    font-size: 1.5rem;
+  }
+  .about-div h2 {
+    font-size: 2rem;
+  }
+  .aims {
+    padding: 1em 4em;
+  }
+}
